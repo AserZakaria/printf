@@ -7,6 +7,9 @@
 #include <stdarg.h>
 #include <limits.h>
 
+#define OUTPUT_BUY_SIZE 1024
+#define BUF_FLUSH -1
+
 /**
  * struct conv - defines a structure for symbols and functions
  *
@@ -21,6 +24,12 @@ typedef struct conv
 } conv_t;
 
 int _putchar(char c);
+
+/* Print_functions.c MODULE */
+int print_char(va_list ap, params_t *params);
+int print_percent(va_list ap, params_t *params);
+int print_string(va_list ap, params_t *params);
+int print_int(va_list ap, params_t *params);
 
 /*PrintF Module*/
 int _printf(const char *format, ...);
