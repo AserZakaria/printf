@@ -3,4 +3,6 @@
 
 int _putchar(char c);
 
+/*PrintF Module*/
+int _printf(const char *format, ...);
 #endif
