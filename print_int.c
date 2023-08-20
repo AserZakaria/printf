@@ -1,12 +1,12 @@
 #include "main.h"
 
 /**
- * print_integer - Prints an integer
+ * print_int - Prints an integer
  * @list: list of arguments
  * Return: Will return the amount of characters printed.
  */
 
-int print_integer(va_list list)
+int print_int(va_list list)
 {
 	int num_length;
 

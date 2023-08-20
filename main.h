@@ -34,4 +34,5 @@ int print_int(va_list);
 int _printf(const char *format, ...);
 int print_percentage(va_list list);
 int (*get_conv_func(char s))(va_list);
+int print_number(va_list args);
 #endif
