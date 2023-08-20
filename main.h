@@ -26,9 +26,10 @@ typedef struct conv
 int _putchar(char c);
 
 /* Print_functions.c MODULE */
-int print_char(va_list list);
-int print_string(va_list list);
-int print_int(va_list list);
+int print_char(va_list ap, params_t *params);
+int print_string(va_list ap, params_t *params);
+int print_int(va_list ap, params_t *params);
+int print_percent(va_list ap, params_t *params);
 
 /*PrintF Module*/
 int _printf(const char *format, ...);

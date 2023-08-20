@@ -14,7 +14,9 @@ int (*get_conv_func(char s))(va_list)
 		{"c", print_char},
 		{"s", print_string},
 		/*Add other handle functions here*/
-		{NULL, NULL},
+		/*Got your note*/
+		{"d", print_int},
+		{"i", print_int},
 	};
 
 	int i = 0;
