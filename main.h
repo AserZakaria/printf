@@ -28,7 +28,6 @@ int _putchar(char c);
 /* Print_functions.c MODULE */
 int print_char(va_list list);
 int print_string(va_list list);
-int print_percent(va_list list);
 int print_int(va_list list);
 
 /*PrintF Module*/
