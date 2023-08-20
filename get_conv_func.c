@@ -11,6 +11,8 @@ int (*get_conv_func(char s))(va_list)
 {
 	conv_t conv[] = {
 		{"%", print_percentage},
+		{"c", print_char},
+		{"s", print_string},
 		/*Add other handle functions here*/
 		{NULL, NULL},
 	};
