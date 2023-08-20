@@ -17,6 +17,7 @@ int (*get_conv_func(char s))(va_list)
 		/*Got your note*/
 		{"d", print_int},
 		{"i", print_int},
+		{NULL, NULL},
 	};
 
 	int i = 0;
