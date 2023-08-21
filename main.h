@@ -7,8 +7,9 @@
 #include <stdarg.h>
 #include <limits.h>
 
-#define OUTPUT_BUY_SIZE 1024
-#define BUF_FLUSH -1
+#define UNUSED(x) (void)(x)
+#define BUFF_SIZE 1024
+
 
 /**
  * struct conv - defines a structure for symbols and functions
