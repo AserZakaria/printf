@@ -25,8 +25,6 @@ typedef struct conv
 } conv_t;
 
 int _putchar(char c);
-/*Convert_Number.c*/
-int print_binary(va_list);
 
 /* Print_functions.c MODULE */
 int print_char(va_list);
