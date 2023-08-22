@@ -18,6 +18,7 @@ int (*get_conv_func(char s))(va_list)
 		{"d", print_int},
 		{"i", print_int},
 		{"b", print_binary},
+		{"r", print_rev},
 		{NULL, NULL},
 	};
 

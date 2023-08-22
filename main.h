@@ -38,4 +38,5 @@ int (*get_conv_func(char s))(va_list);
 int print_number(va_list args);
 char *conv_num_to_string(long int num, int base);
 int print_binary(va_list list);
+int print_rev(va_list list);
 #endif
